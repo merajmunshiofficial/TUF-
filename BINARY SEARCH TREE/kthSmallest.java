@@ -9,7 +9,7 @@ class TreeNode {
      TreeNode(int val) { data = val; left = null; right = null; }
  }
 
-class Solution {
+class kthSmallest {
     private int k;
     private int result;
 
@@ -69,9 +69,9 @@ class Solution {
         root.left.right = new TreeNode(2);
         root.right = new TreeNode(4);
 
-        Solution solution = new Solution();
+        kthSmallest kthSmallest = new kthSmallest();
         int k = 1;
-        List<Integer> result = solution.kLargesSmall(root, k);
+        List<Integer> result = kthSmallest.kLargesSmall(root, k);
 
         // Output the result
         System.out.println(result); // Output: [1, 4]

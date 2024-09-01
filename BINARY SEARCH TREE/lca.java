@@ -11,7 +11,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class lca {
     public TreeNode lca(TreeNode root, int p, int q) {
         // Base case: if the root is null or one of the nodes is found, return the current root
         if (root == null || root.data == p || root.data == q) {
@@ -44,7 +44,7 @@ class Solution {
         root.left.right.left = new TreeNode(7);
         root.left.right.right = new TreeNode(4);
 
-        Solution sol = new Solution();
+        lca sol = new lca();
 
         // Find the LCA of nodes with values 5 and 1
         TreeNode ans = sol.lca(root, 5, 1);

@@ -9,7 +9,7 @@ class TreeNode {
     TreeNode(int val) { data = val; left = null; right = null; }
 }
 
-class Solution {
+class insertIntoBST {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         // If the root is null, create a new node with the given value and return it
         if (root == null) {
@@ -51,7 +51,7 @@ class Solution {
     }
     
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        insertIntoBST insertIntoBST = new insertIntoBST();
         
         // Create a sample BST: [4, 2, 7, 1, 3]
         TreeNode root = new TreeNode(4);
@@ -61,9 +61,9 @@ class Solution {
         root.left.right = new TreeNode(3);
         
         int val = 5;
-        root = solution.insertIntoBST(root, val);
+        root = insertIntoBST.insertIntoBST(root, val);
         
         // Print the BST in-order to verify the insertion
-        solution.printInOrder(root); // Output should be: 1 2 3 4 5 7
+        insertIntoBST.printInOrder(root); // Output should be: 1 2 3 4 5 7
     }
 }
