@@ -109,9 +109,7 @@ class Trie {
         // The prefix is found in the Trie
         return true;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         // Create a Trie object
         Trie trie = new Trie();
@@ -150,4 +148,6 @@ public class Main {
             System.out.println(res);
         }
     }
+
 }
+
