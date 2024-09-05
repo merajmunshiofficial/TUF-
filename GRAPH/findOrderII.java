@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class findOrderII {
     
     /* Function to return the topological
      sorting of given graph */
@@ -108,8 +110,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        findOrderII class */
+        findOrderII sol = new findOrderII();
         
         /* Function call to determine order of 
         letters based on alien dictionary */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class dfsandbfstraverse {
 
     /* Helper function to perform BFS
     traversal from the node */
@@ -111,8 +113,8 @@ class Solution {
         adj[3].add(0);
         adj[4].add(2);
 
-        // Creating instance of Solution class
-        Solution sol = new Solution();
+        // Creating instance of dfsandbfstraverse class
+        dfsandbfstraverse sol = new dfsandbfstraverse();
 
         // Function call to get the BFS traversal of graph
         List<Integer> bfs = sol.bfsOfGraph(V, adj);

@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
 class DisjointSet {
@@ -58,8 +60,8 @@ class DisjointSet {
     }
 }
 
-// Solution class
-class Solution {
+// krushkalAlgo class
+class krushkalAlgo {
     // Function to get the sum of weights of edges in MST
     public int spanningTree(int V, List<List<List<Integer>>> adj) {
         
@@ -129,8 +131,8 @@ class Solution {
             adj.get(v).add(Arrays.asList(u, wt));
         }
         
-        // Creating instance of Solution class
-        Solution sol = new Solution();
+        // Creating instance of krushkalAlgo class
+        krushkalAlgo sol = new krushkalAlgo();
         
         /* Function call to get the sum 
         of weights of edges in MST */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class findNumberOfComponent {
     // Function for BFS traversal
     private void bfs(int node, List<Integer>[] adjLs, 
                      boolean[] vis) {
@@ -96,8 +98,8 @@ class Solution {
         );
 
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        findNumberOfComponent class */
+        findNumberOfComponent sol = new findNumberOfComponent();
 
         /* Function call to find the number of 
         connected components in the given graph */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class CheapestFlight {
     
     /* Function to find the cheapest price 
     from src to dst with at most k stops */
@@ -85,11 +87,11 @@ class Solution {
         
         int src = 0, dst = 3, k = 1;
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution(); 
+        // Creating an instance of CheapestFlight class
+        CheapestFlight sol = new CheapestFlight(); 
         
         // Function call to determine cheapest flight from source to destination within K stops
-        int ans = sol.CheapestFLight(n, flights, src, dst, k);
+        int ans = sol.CheapestFlight(n, flights, src, dst, k);
         
         // Output
         System.out.println("The cheapest flight from source to destination within K stops is: " + ans);

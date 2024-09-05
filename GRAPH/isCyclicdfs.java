@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class isCyclicdfs {
     
     // Function to perform DFS traversal
     private boolean dfs(int node, List<Integer> adj[], 
@@ -62,9 +64,7 @@ class Solution {
         detected in any component */
         return false;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         
         int V = 6;
@@ -80,8 +80,8 @@ public class Main {
         adj[4].add(1);
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution(); 
+        isCyclicdfs class */
+        isCyclicdfs sol = new isCyclicdfs(); 
         
         /* Function call to determine if cycle 
         exists in given directed graph */
@@ -93,4 +93,6 @@ public class Main {
         else 
             System.out.println("The given directed graph does not contain a cycle.");
     }
+
 }
+

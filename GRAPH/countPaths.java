@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class countPaths {
     
     /* Function to get the number of ways to arrive
     at destinations in shortest possible time */
@@ -97,8 +99,8 @@ class Solution {
         );
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        countPaths class */
+        countPaths sol = new countPaths();
         
         /* Function call to get the number of ways to 
         arrive at destinations in shortest possible time */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+public class isBipartitedfs {
     
     /* Function to perform DFS traversal and 
     color the nodes with alternate colors*/
@@ -65,9 +67,7 @@ class Solution {
         // component is bipartite
         return true;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         int V = 4;
         List<Integer> adj[] = new ArrayList[V];
@@ -83,8 +83,8 @@ public class Main {
         adj[3].add(0);
         adj[3].add(2);
 
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of isBipartitedfs class
+        isBipartitedfs sol = new isBipartitedfs();
 
         // Function call to check if the given graph is bipartite
         boolean ans = sol.isBipartite(V, adj);
@@ -96,3 +96,5 @@ public class Main {
             System.out.println("The given graph is not a bipartite graph.");
     }
 }
+
+

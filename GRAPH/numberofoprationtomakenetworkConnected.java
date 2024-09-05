@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
 class DisjointSet {
@@ -56,8 +58,8 @@ class DisjointSet {
     }
 }
 
-// Solution class
-class Solution{
+// numberofoprationtomakenetworkConnected class
+class numberofoprationtomakenetworkConnected{
 
     /* Function to get the number of 
     operations to make network connected */
@@ -98,12 +100,12 @@ class Solution{
             {1, 2}
         };
 
-        // Creating instance of Solution class
-        Solution sol = new Solution();
+        // Creating instance of numberofoprationtomakenetworkConnected class
+        numberofoprationtomakenetworkConnected sol = new numberofoprationtomakenetworkConnected();
 
         /* Function call to get the number of 
         operations to make network connected */
-        int ans = sol.Solve(n, Edge);
+        int ans = sol.solve(n, Edge);
 
         System.out.println("The number of operations to make network connected is: " + ans);
     }

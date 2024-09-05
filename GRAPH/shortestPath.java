@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class shortestPath {
     
     // Function to perform DFS traversal
     private void topoSort(int node, List<int[]>[] adj, 
@@ -107,8 +109,8 @@ class Solution {
             {0, 1, 2}, {0, 2, 1}  
         };
 
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of shortestPath class
+        shortestPath sol = new shortestPath();
         
         /* Function call to determine order 
         of letters based on alien dictionary */

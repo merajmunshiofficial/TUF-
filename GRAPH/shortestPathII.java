@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-public class Solution {
+public class shortestPathII {
 
     // Function to perform BFS traversal
     private void bfs(int src, List<Integer>[] adj, 
@@ -85,8 +87,8 @@ public class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        shortestPathII class */
+        shortestPathII sol = new shortestPathII();
         
         /* Function call to determine shortest paths */
         int[] ans = sol.shortestPath(edges, N, M);

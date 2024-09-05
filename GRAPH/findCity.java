@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class findCity {
 
     /* Function to find the city with 
     the smallest number of neighbors. */
@@ -90,8 +92,8 @@ class Solution {
         int distanceThreshold = 4;
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        findCity class */
+        findCity sol = new findCity();
         
         /* Function to find the city with 
         the smallest number of neighbors. */

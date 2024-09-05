@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class orangesRotting {
     // DelRow and delCol for neighbors
     private int[] delRow = {-1, 0, 1, 0};
     private int[] delCol = {0, 1, 0, -1};
@@ -119,8 +121,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution(); 
+        orangesRotting class */
+        orangesRotting sol = new orangesRotting(); 
         
         /* Function call to find number of minutes 
         so that all oranges get rotten */

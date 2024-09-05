@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-public class Solution {
+public class spanningTree {
 
     // Function to get the sum of weights of edges in MST
     public int spanningTree(int V, List<List<List<Integer>>> adj) {
@@ -81,8 +83,8 @@ public class Solution {
             adj.get(v).add(Arrays.asList(u, wt));
         }
         
-        // Creating instance of Solution class
-        Solution sol = new Solution();
+        // Creating instance of spanningTree class
+        spanningTree sol = new spanningTree();
         
         /* Function call to get the sum 
         of weights of edges in MST */

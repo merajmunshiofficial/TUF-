@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class eventualSafeNodesbfs {
     
     /* Function to return the topological
      sorting of given graph */
@@ -101,8 +103,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        eventualSafeNodesbfs class */
+        eventualSafeNodesbfs sol = new eventualSafeNodesbfs();
         
         /* Function call to get the eventually 
         safe nodes in the given graph */

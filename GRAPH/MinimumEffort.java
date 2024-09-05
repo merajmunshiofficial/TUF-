@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class MinimumEffort {
 
     // Delta row and column array
     int[] delRow = {-1, 0, 1, 0};
@@ -99,8 +101,8 @@ class Solution {
         );
 
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        MinimumEffort class */
+        MinimumEffort sol = new MinimumEffort();
 
         /* Function call to determine minimum efforts 
         to go from top-left to bottom-right */

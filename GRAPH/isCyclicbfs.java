@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class isCyclicbfs {
     
     /* Function to return the topological
      sorting of given graph */
@@ -75,8 +77,8 @@ class Solution {
         adj[3].add(4);
         adj[4].add(1);
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of isCyclicbfs class
+        isCyclicbfs sol = new isCyclicbfs();
         
         /* Function call to determine if cycle
          exists in given directed graph */

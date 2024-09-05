@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class topoSortdfs {
     
     // Function to perform DFS traversal
     private void dfs(int node, List<Integer> adj[], 
@@ -72,8 +74,8 @@ class Solution {
         adj[5].add(2);
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution(); 
+        topoSortdfs class */
+        topoSortdfs sol = new topoSortdfs(); 
         
         /* Function call to return the 
         topological sorting of given graph */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class findSequences {
     private void dfs(String word, String beginWord, List<String> seq, 
                      Map<String, Integer> mpp, List<List<String>> ans) {
         
@@ -134,8 +136,8 @@ class Solution {
             "des", "der", "dfr", "dgt", "dfs"
         );
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of findSequences class
+        findSequences sol = new findSequences();
         
         /* Function call to determine number of 
         steps to reach from start ward to target word */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class numProvinces {
     // Function for BFS traversal
     private void bfs(int node, List<Integer> adjLs[], boolean[] vis) {
         
@@ -106,8 +108,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        numProvinces class */
+        numProvinces sol = new numProvinces();
         
         /* Function call to find the 
         provinces in the given graph */

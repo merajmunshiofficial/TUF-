@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class topoSortKhanAlgo {
     /* Function to return the topological
      sorting of given graph */
     public List<Integer> topoSort(int V, 
@@ -65,8 +67,8 @@ class Solution {
         adj[5].add(2);
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution(); 
+        topoSortKhanAlgo class */
+        topoSortKhanAlgo sol = new topoSortKhanAlgo(); 
         
         /* Function call to return the 
         topological sorting of given graph */

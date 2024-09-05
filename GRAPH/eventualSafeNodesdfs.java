@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class eventualSafeNodesdfs {
     
     /* Function to perform DFS traversal 
     while checking for safe nodes */
@@ -111,8 +113,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        eventualSafeNodesdfs class */
+        eventualSafeNodesdfs sol = new eventualSafeNodesdfs();
         
         /* Function call to get the eventually 
         safe nodes in the given graph */

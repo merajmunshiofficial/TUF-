@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class isCyclebfs {
     
     // Function to perform BFS traversal
     private boolean bfs(int i, 
@@ -85,8 +87,8 @@ class Solution {
         adj[4].addAll(Arrays.asList(1, 3, 5));
         adj[5].addAll(Arrays.asList(2, 4));
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of isCyclebfs class
+        isCyclebfs sol = new isCyclebfs();
         
         // Function call to detect cycle in given graph.
         boolean ans = sol.isCycle(V, adj);

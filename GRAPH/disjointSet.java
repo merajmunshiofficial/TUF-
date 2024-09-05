@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
 class DisjointSet {
@@ -58,8 +60,8 @@ class DisjointSet {
     }
 }
 
-// Solution class
-class Solution {
+// disjointSet class
+class disjointSet {
     // Function to get the number of provinces
     int numProvinces(int[][] adj, int V) {
         
@@ -103,8 +105,8 @@ class Solution {
             {1, 0, 1}
         };
 
-        // Creating instance of Solution class
-        Solution sol = new Solution();
+        // Creating instance of disjointSet class
+        disjointSet sol = new disjointSet();
         
         /* Function call to get the 
         number of provinces */

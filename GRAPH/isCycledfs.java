@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class isCycledfs {
     
     // Function to perform DFS traversal
     private boolean dfs(int i, List<Integer> adj[], 
@@ -67,8 +69,8 @@ class Solution {
         adj[5].addAll(Arrays.asList(2, 4));
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        isCycledfs class */
+        isCycledfs sol = new isCycledfs();
         
         /* Function call to detect 
         cycle in given graph. */

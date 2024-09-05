@@ -1,6 +1,8 @@
-import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.*;
 
-class Solution {
+class floydwarshall {
     /* Function to find the shortest distance 
     between every pair of vertices. */
     public void shortest_distance(int[][] matrix) {
@@ -48,8 +50,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        floydwarshall class */
+        floydwarshall sol = new floydwarshall();
         
         /* Function to find the shortest distance 
         between every pair of vertices. */

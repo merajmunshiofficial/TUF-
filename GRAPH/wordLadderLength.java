@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class wordLadderLength {
 
     /* Function to determine number of steps
     to reach from start ward to target word */
@@ -90,8 +92,8 @@ class Solution {
         Arrays.asList("des", "der", "dfr", "dgt", "dfs");
 
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        wordLadderLength class */
+        wordLadderLength sol = new wordLadderLength();
 
         /* Function call to determine number of 
         steps to reach from start ward to target word */

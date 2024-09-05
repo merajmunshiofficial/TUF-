@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class shortestPathIV {
 
     // Delta row and column array
     private int[] delRow = {-1, 0, 1, 0};
@@ -102,8 +104,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        shortestPathIV class */
+        shortestPathIV sol = new shortestPathIV();
         
         /* Function call to determine the shortest 
         distance between source and destination */

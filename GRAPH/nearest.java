@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+public class nearest {
     // DelRow and delCol for neighbors
     private int[] delRow = {-1, 0, 1, 0};
     private int[] delCol = {0, 1, 0, -1};
@@ -86,9 +88,7 @@ class Solution {
         // return distance matrix
         return dist;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         int[][] grid = {
             {0, 1, 1, 0}, 
@@ -97,8 +97,8 @@ public class Main {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        nearest class */
+        nearest sol = new nearest();
         
         /* Function call to find the distance of the 
         nearest 1 in the grid for each cell. */
@@ -117,3 +117,4 @@ public class Main {
         }
     }
 }
+

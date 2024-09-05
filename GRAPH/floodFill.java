@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class floodFill {
     
     // DelRow and delCol for neighbors
     private int[] delRow = {-1, 0, 1, 0};
@@ -78,8 +80,8 @@ class Solution {
         int sr = 1, sc = 1;
         int newColor = 2;
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of floodFill class
+        floodFill sol = new floodFill();
         
         // Function call to find the number of islands in given grid
         int[][] ans = sol.floodFill(image, sr, sc, newColor);

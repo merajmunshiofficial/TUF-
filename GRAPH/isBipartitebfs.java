@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class isBipartitebfs {
 
     /* Function to perform BFS traversal and color
     the nodes with alternate colors in a component */
@@ -82,8 +84,8 @@ class Solution {
         adj[3].addAll(Arrays.asList(0, 2));
 
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution(); 
+        isBipartitebfs class */
+        isBipartitebfs sol = new isBipartitebfs(); 
         
         /* Function call to check 
         if the given graph is bipartite */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class dijkstra {
     
     /* Function to find the shortest distance of
     all the vertices from the source vertex S. */
@@ -67,8 +69,8 @@ class Solution {
         adj.add(new ArrayList<>(List.of(new ArrayList<>(List.of(0, 9)))));
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        dijkstra class */
+        dijkstra sol = new dijkstra();
         
         /* Function call to find the shortest distance 
         of each node from the source node */

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class numIslands {
     /* Function to determine if the cell
      is valid (within grid's boundaries) */
     private boolean isValid(int i, int j, 
@@ -97,8 +97,8 @@ class Solution {
             {'0', '0', '0', '1', '1'}
         };
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of numIslands class
+        numIslands sol = new numIslands();
         
         /* Function call to find the
         number of islands in given grid */

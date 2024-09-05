@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
 class DisjointSet {
@@ -96,32 +98,32 @@ class DisjointSet {
            size[ulp_u] += size[ulp_v];
        }
    }
-}
 
-public class Main {
    public static void main(String[] args) {
-       // Disjoint Data structure
-       DisjointSet ds = new DisjointSet(7);
-       ds.unionBySize(1, 2); // Adding edge between 1 and 2
-       ds.unionBySize(2, 3); // Adding edge between 2 and 3
-       ds.unionBySize(4, 5); // Adding edge between 4 and 5
-       ds.unionBySize(6, 7); // Adding edge between 6 and 7
-       ds.unionBySize(5, 6); // Adding edge between 5 and 6
+    // Disjoint Data structure
+    DisjointSet ds = new DisjointSet(7);
+    ds.unionBySize(1, 2); // Adding edge between 1 and 2
+    ds.unionBySize(2, 3); // Adding edge between 2 and 3
+    ds.unionBySize(4, 5); // Adding edge between 4 and 5
+    ds.unionBySize(6, 7); // Adding edge between 6 and 7
+    ds.unionBySize(5, 6); // Adding edge between 5 and 6
 
-       /* Checking if node 3 and node 7 
-       are in the same component */
-       if (ds.find(3, 7))
-           System.out.println("They belong to the same components.");
-       else
-           System.out.println("They do not belong to the same components.");
+    /* Checking if node 3 and node 7 
+    are in the same component */
+    if (ds.find(3, 7))
+        System.out.println("They belong to the same components.");
+    else
+        System.out.println("They do not belong to the same components.");
 
-       ds.unionBySize(3, 7); // Adding edge between 3 and 7
+    ds.unionBySize(3, 7); // Adding edge between 3 and 7
 
-       /* Checking again if node 3 and node 7 
-       are in the same component */
-       if (ds.find(3, 7))
-           System.out.println("They belong to the same components.");
-       else
-           System.out.println("They do not belong to the same components.");
-   }
+    /* Checking again if node 3 and node 7 
+    are in the same component */
+    if (ds.find(3, 7))
+        System.out.println("They belong to the same components.");
+    else
+        System.out.println("They do not belong to the same components.");
 }
+
+}
+

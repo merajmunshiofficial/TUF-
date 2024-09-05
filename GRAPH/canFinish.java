@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class canFinish {
 
     /* Function to return the topological
      sorting of given graph */
@@ -93,8 +95,8 @@ class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        canFinish class */
+        canFinish sol = new canFinish();
         
         /* Function call to determine if 
         all the tasks can be finished */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class fill {
     // DelRow and delCol for neighbors
     private int[] delRow = {-1, 0, 1, 0};
     private int[] delCol = {0, 1, 0, -1};
@@ -114,8 +116,8 @@ class Solution {
             {'X', 'O', 'X', 'X'}
         };
         
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of fill class
+        fill sol = new fill();
         
         // Function call to replace surrounded 'O's with 'X's
         char[][] ans = sol.fill(mat);

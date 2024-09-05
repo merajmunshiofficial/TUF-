@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-public class Solution {
+public class shortestPathIII {
     /* Function to find the shortest 
     path from node 1 to node n */
     public List<Integer> shortestPath(int n, int m, int[][] edges) {
@@ -119,8 +121,8 @@ public class Solution {
         };
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        shortestPathIII class */
+        shortestPathIII sol = new shortestPathIII();
         
         /* Function call to find the shortest distance 
         of each node from the source node */

@@ -1,6 +1,8 @@
+import java.util.List;
+import java.util.ArrayList;
 import java.util.*;
 
-class Solution {
+class minimumMultiplications {
 
     /* Function to determine minimum 
     multiplications to reach end */
@@ -70,8 +72,8 @@ class Solution {
         int[] arr = {2, 5, 7};
         
         /* Creating an instance of 
-        Solution class */
-        Solution sol = new Solution();
+        minimumMultiplications class */
+        minimumMultiplications sol = new minimumMultiplications();
         
         /* Function call to determine minimum 
         multiplications to reach end */
